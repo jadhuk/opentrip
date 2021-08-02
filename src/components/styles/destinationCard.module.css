@@ -1,0 +1,12 @@
+.div__card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div__pilihkategori {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 77px 500px 0 0;
+  font-size: 25px;
+}

@@ -1,0 +1,200 @@
+.bgImgDDetails {
+  width: 600px;
+  height: 1000px;
+  /*background-image: url("https://pbs.twimg.com/media/E41VcZgVgAAtZ5s?format=jpg&name=orig");*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: center;*/
+  /*border: dotted;*/
+}
+
+.destinasiAtas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bagKanan {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  justify-content: flex-start;
+  align-items: baseline;
+  /*align-content: center;*/
+  margin-right: 4%;
+}
+
+.routerDAtas {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #ff385c;
+  font-weight: 500;
+}
+
+.solidDivider {
+  border-top: 1px solid #bbb;
+  width: 598px;
+}
+
+.namaDestinasi {
+  font-family: Inter;
+  font-size: 43px;
+  color: #4a4a4a;
+  margin-bottom: 0;
+}
+
+.ketNamaDestinasi {
+  font-size: 14px;
+  color: #9f9f9f;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/*.e-date-icon {*/
+/*    border-top: 1px solid #4a4a4a;*/
+/*    margin-bottom: 0px;*/
+/*}*/
+
+.e-date-wrapper {
+  border-top: 3px solid green;
+  background: #f1f1f1;
+}
+
+.petaLokasi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.petaLokasi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hargaBerdasar {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 550;
+  color: #4a4a4a;
+  font-style: normal;
+}
+
+.quotaBar {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ketBar {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4a4a4a;
+  font-style: normal;
+  margin-bottom: 0px;
+}
+
+.increDecreBtn {
+  display: flex;
+  align-items: center;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  width: 190px;
+  height: 59px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.tombolTambah {
+  width: 20px;
+  margin: 0 5px;
+}
+
+.tombolTambah:hover {
+  cursor: pointer;
+}
+
+.jumlahCounter {
+  margin-bottom: 4px;
+}
+
+.increDecreWBtn {
+  display: flex;
+  align-items: center;
+  /*border-radius: 5px;*/
+}
+
+.desdet-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 154px;
+  height: 59px;
+
+  background: #ff385c;
+  border: none;
+  border-radius: 5px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.nav {
+  margin: 50px 50px 5px 50px;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.nav-li {
+  text-decoration: none;
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+.nav-li:last-child {
+  border-right: none;
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.nav-li a:hover {
+  color: #ff385c;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-li-active a {
+  font-weight: bold;
+  color: #ff385c;
+}
+
+.msg-active {
+  text-decoration: none;
+}
+
+.msg-null {
+  text-decoration: none;
+}
